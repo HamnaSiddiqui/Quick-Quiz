@@ -1,0 +1,12 @@
+.justify{
+    font-family: 'Tiro Bangla', serif;
+}
+h2{
+    font-size: 35px;
+}
+.choice-container{
+    width: 100%;
+    text-align: left;
+    border: 0.1rem solid #56a5eb;
+    border-collapse: collapse;
+}
