@@ -40,12 +40,29 @@ h4{
 .container > *{
     text-align: center;
 }
-.flex-center{
-    text-align: center;
+.flex-column {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
-}
+    font-size: 1.5rem;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
 .btn{
     background-color: white;
     color: #56a5eb;
