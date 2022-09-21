@@ -49,5 +49,7 @@ getNewQuestions = () =>{
     if(available_questions.length === 0 || question_counter >= max_questions){
         return window.location.assign = ("./end.html");
     }
+    question_counter ++;
+    let question_index = Math.floor(Math.random() * available_questions.length);
     //see if else is required or not
 }
